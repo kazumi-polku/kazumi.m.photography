@@ -11,7 +11,7 @@ a{color:inherit;text-decoration:none}
 
 /* Hero */
 .hero{position:relative;max-width:var(--max);min-height:min(78vh,860px);margin:0 auto;overflow:hidden;display:flex;align-items:center}
-.hero-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 38%}
+.hero-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:36% 38%;transform:scale(1.08)}
 .hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(13,13,13,.72) 0%,rgba(13,13,13,.48) 35%,rgba(13,13,13,.14) 72%,rgba(13,13,13,.03) 100%)}
 .hero-copy{position:relative;z-index:1;width:min(560px,48%);margin-left:4.8vw;padding:8vh 0;color:#fff}
 .subbrand,.label{font-family:"Cormorant Garamond",serif;letter-spacing:.15em;color:var(--muted);font-size:.78rem}
@@ -67,7 +67,7 @@ footer{max-width:var(--max);margin:auto;padding:35px 4.8vw;border-top:1px solid 
   .site-header{padding:20px 22px}
   .site-header nav{gap:16px;font-size:.85rem}
   .hero{min-height:72vh}
-  .hero-image{object-position:47% 40%}
+  .hero-image{object-position:34% 40%;transform:scale(1.1)}
   .hero-copy{width:min(620px,78%);margin-left:22px;padding-right:22px}
   .hero-overlay{background:linear-gradient(90deg,rgba(13,13,13,.74) 0%,rgba(13,13,13,.48) 58%,rgba(13,13,13,.12) 100%)}
   .page-grid{padding:11vh 22px;grid-template-columns:1fr;gap:18px}
@@ -82,7 +82,7 @@ footer{max-width:var(--max);margin:auto;padding:35px 4.8vw;border-top:1px solid 
 @media(max-width:560px){
   .site-header nav a:not(:last-child){display:none}
   .hero{min-height:76vh}
-  .hero-image{object-position:42% 42%}
+  .hero-image{object-position:30% 42%;transform:scale(1.15)}
   .hero-copy{width:calc(100% - 44px);margin-left:22px;padding:8vh 0}
   .hero-overlay{background:rgba(13,13,13,.56)}
   .hero h1{font-size:2.38rem}
